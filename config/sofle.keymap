@@ -86,7 +86,7 @@
 &trans      &none         &none         &kp UP_ARROW  &trans        &trans                          &kp PG_UP  &trans       &kp UP    &trans     &kp N0   &trans
 &trans      &none         &kp LEFT      &kp DOWN      &kp RIGHT     &kp CLCK                        &kp PG_DN  &kp LEFT     &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
 &trans      &kp K_UNDO    &kp K_CUT     &kp F3        &kp F4        &trans        &trans    &trans  &trans     &trans       &trans    &trans     &trans   &trans
-                          &trans        &trans        &trans        &trans        &trans    &trans  &trans     &kp K_POWER  &trans    &trans
+                          &trans        &trans        &trans        &trans        &trans    &trans  &trans     &kp C_POWER  &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
