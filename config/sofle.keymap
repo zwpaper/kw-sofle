@@ -39,11 +39,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&none                       &kp N1  &kp N2  &kp N3    &kp N4     &kp N5                                           &kp N6     &kp N7     &kp N8         &kp N9   &kp N0    &none
-&kp TAB                     &kp Q   &kp W   &kp E     &kp R      &kp T                                            &kp Y      &kp U      &kp I          &kp O    &kp P     &kp BACKSPACE
-&mt LCTRL ESC               &kp A   &kp S   &kp D     &kp F      &kp G                                            &kp H      &kp J      &kp K          &kp L    &kp SEMI  &kp SQT
-&mt LSHFT LEFT_PARENTHESIS  &kp Z   &kp X   &kp C     &kp V      &kp B             &kp C_MUTE         &none       &kp N      &kp M      &kp COMMA      &kp DOT  &kp FSLH  &mt RSHFT LA(RIGHT_PARENTHESIS)
-                                    &none   &kp LALT  &kp SPACE  &kp LEFT_COMMAND  &lt 1 BACKSPACE    &lt 2 PIPE  &kp GRAVE  &kp ENTER  &kp LG(SPACE)  &none
+&none                       &kp N1  &kp N2  &kp N3    &kp N4     &kp N5                                      &kp N6     &kp N7     &kp N8         &kp N9   &kp N0    &none
+&kp TAB                     &kp Q   &kp W   &kp E     &kp R      &kp T                                       &kp Y      &kp U      &kp I          &kp O    &kp P     &kp BACKSPACE
+&mt LCTRL ESC               &kp A   &kp S   &kp D     &kp F      &kp G                                       &kp H      &kp J      &kp K          &kp L    &kp SEMI  &kp SQT
+&mt LSHFT LEFT_PARENTHESIS  &kp Z   &kp X   &kp C     &kp V      &kp B             &kp C_MUTE    &none       &kp N      &kp M      &kp COMMA      &kp DOT  &kp FSLH  &mt RSHFT LA(RIGHT_PARENTHESIS)
+                                    &none   &kp LALT  &kp SPACE  &kp LEFT_COMMAND  &mo 1         &lt 2 PIPE  &kp GRAVE  &kp ENTER  &kp LG(SPACE)  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
